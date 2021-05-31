@@ -1,0 +1,59 @@
+/* Mobile first design */
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+/* 
+font-family: 'Lexend Deca', sans-serif; 400
+font-family: 'Big Shoulders Display', cursive; 700
+*/
+
+:root {
+  /* Primary colors */
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --darker-cyan: hsl(179, 100%, 13%);
+
+  /* Neutral */
+  --transp-white: hsla(0, 0%, 100%, 0.75);
+  --light-gray: hsl(0, 0%, 95%);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  width: 80%;
+  margin: 3rem auto;
+}
+
+.item {
+  padding: 2.5rem 2rem;
+}
+
+.description {
+  margin: 1.5rem auto;
+}
+
+.title {
+  margin-top: 1.5rem;
+}
+#sedans {
+  background: var(--bright-orange);
+}
+
+#suvs {
+  background: var(--dark-cyan);
+}
+
+#luxury {
+  background: var(--darker-cyan);
+}
