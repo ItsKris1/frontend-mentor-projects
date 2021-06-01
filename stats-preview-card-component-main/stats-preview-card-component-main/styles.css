@@ -26,13 +26,8 @@ html {
 
 body {
   font-size: 15px;
-  font-family: "Lexend Deca", sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: var(--main-bg);
-}
-
-p,
-h2 {
-  text-align: center;
 }
 
 ul,
@@ -41,33 +36,37 @@ li {
   padding: 0;
   margin: 0;
 }
-
 li > * {
   margin: 0;
 }
-/*------------*/
 
-/* Body */
+/* ----Mobile first---- */
+/* Content */
+h2 {
+  margin-top: 0;
+  text-align: center;
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--white);
+}
+
+p {
+  text-align: center;
+  color: var(--paragraph);
+  line-height: 1.45rem;
+  font-size: 0.8rem;
+}
 
 .container {
   background-color: var(--card-bg);
   width: 75%;
   margin: 2rem auto;
-  border-radius: 0.75rem;
+  border-radius: 0.5rem;
   overflow: hidden;
   box-shadow: 0 10px 0 -2px rgba(0, 0, 0, 0.15);
 }
 
 .content {
-  padding: 1rem 1.5rem;
-}
-
-.content h2 {
-  color: var(--white);
-}
-
-.content p {
-  color: var(--paragraph);
+  padding: 2rem 1.4rem;
 }
 
 .img-container {
@@ -89,13 +88,21 @@ li > * {
   height: auto;
   display: block;
 }
-
+.purple {
+  color: var(--accent);
+}
 .done-work p {
   text-transform: uppercase;
+  margin-top: 0.35rem;
+  letter-spacing: 0.075rem;
+  font-size: 0.75rem;
 }
 
+.done-work h2 {
+  font-family: "Inter", sans-serif;
+}
 .done-work li {
-  margin: 1.25rem;
+  margin-top: 1.75rem;
 }
 
 .attribution {
