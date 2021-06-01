@@ -26,6 +26,7 @@ Users should be able to:
 - CSS custom properties
 - CSS Grid
 - Mobile-first workflow
+- JavaScript
 
 ### Solution
 https://imgur.com/a/Nzommi6
