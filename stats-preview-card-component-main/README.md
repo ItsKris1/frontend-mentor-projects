@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://statspreview-5jw4d5tsp-itskris1.vercel.app/
 
 ### Built with
 
