@@ -55,17 +55,19 @@ p {
   border-bottom: 1px solid var(--divider);
   margin-top: 1rem;
 }
-.question p:hover {
+.question-text:hover {
   cursor: pointer;
   color: var(--soft-red);
 }
-.question p:focus {
+.question-text:focus {
   color: black;
+  pointer-events: none;
 }
 
 .arrow-down {
   float: right;
 }
+
 
 .answer {
   display: none;
