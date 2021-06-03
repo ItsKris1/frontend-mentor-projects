@@ -10,7 +10,7 @@
   --gray: hsl(240, 6%, 50%);
 
   /* Divider */
-  --light-blue: hsl(240, 5%, 91%);
+  --divider: hsl(240, 5%, 91%);
 
   /* Gradients */
   --bg-violet: hsl(273, 75%, 66%);
@@ -38,12 +38,31 @@ h1 {
   text-align: center;
   margin-bottom: 1.75rem;
 }
+
+p {
+  color: var(--gray);
+  margin: 1rem 0;
+}
 .container {
-  width: 80%;
+  width: 85%;
   padding: 1.5rem;
   background: white;
   border-radius: 1.5rem;
   box-shadow: 0px 15px 50px var(--dark-blue);
+}
+.question {
+  border-bottom: 1px solid var(--divider);
+}
+.arrow-down {
+  float: right;
+}
+
+.answer p {
+  margin-bottom: 1rem;
+  line-height: 1rem;
+}
+.arrow-down {
+  float: right;
 }
 
 .answer {
