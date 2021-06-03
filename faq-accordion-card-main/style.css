@@ -60,14 +60,14 @@ p {
   color: var(--soft-red);
 }
 .question-text:focus {
-  color: black;
+  color: var(--dark-blue);
+  font-weight: 700;
   pointer-events: none;
 }
 
 .arrow-down {
   float: right;
 }
-
 
 .answer {
   display: none;
