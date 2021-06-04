@@ -107,30 +107,34 @@ p {
   .container {
     display: flex;
     justify-content: space-around;
+    margin-top: 0;
+    overflow: hidden;
   }
-
   .mobile-img-container {
     display: none;
   }
 
-  .desktop-img-container {
+  #woman-online-desktop {
+    transform: translateX(-32%);
     position: relative;
-    width: 50%;
-  }
-  .woman-online-desktop {
-    position: absolute;
-    width: 85%;
-    transform: translateX(-35%);
+    z-index: 25;
   }
 
-  .pic-shadow-desktop {
+  #pic-shadow-desktop {
     position: absolute;
-
-    transform: translate(-75%, -50%);
+    left: -15%;
+    top: -21%;
+    z-index: 2;
   }
 
-  .picture-box-desktop {
+  #picture-box {
     position: absolute;
-    width: 50%;
+    left: 17%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 35;
+    display: block;
+    height: 110px;
+    width: auto;
   }
 }
