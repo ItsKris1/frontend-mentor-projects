@@ -37,6 +37,7 @@ h1 {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 2rem;
+  color: var(--dark-blue);
 }
 
 p {
@@ -80,4 +81,56 @@ p {
 .answer p {
   margin-bottom: 1rem;
   line-height: 1rem;
+}
+
+.woman-online {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+.pic-shadow {
+  display: block;
+  margin: auto;
+  transform: translateY(-50%);
+}
+
+@media only screen and (min-width: 570px) {
+  .container {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .mobile-img-container {
+    display: none;
+  }
+
+  .desktop-img-container {
+    position: relative;
+    width: 50%;
+  }
+  .woman-online-desktop {
+    position: absolute;
+    width: 85%;
+    transform: translateX(-35%);
+  }
+
+  .pic-shadow-desktop {
+    position: absolute;
+
+    transform: translate(-75%, -50%);
+  }
+
+  .picture-box-desktop {
+    position: absolute;
+    width: 50%;
+  }
 }
