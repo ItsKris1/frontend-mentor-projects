@@ -44,6 +44,7 @@ p {
   color: var(--gray);
   margin: 1rem 0;
 }
+
 .container {
   width: 85%;
   background: white;
@@ -51,6 +52,11 @@ p {
   padding: 3rem 1.5rem;
   margin-top: 5rem;
   box-shadow: 0px 15px 50px var(--dark-blue);
+  position: relative;
+}
+
+.desktop-img-container {
+  display: none;
 }
 .question {
   border-bottom: 1px solid var(--divider);
@@ -89,6 +95,7 @@ p {
   right: 0;
   left: 0;
   margin: 0 auto;
+  transform: translateY(-52%);
 }
 
 .pic-shadow {
@@ -97,13 +104,28 @@ p {
   transform: translateY(-50%);
 }
 
+.attribution {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 15%, 80%);
+}
+
 @media only screen and (min-width: 570px) {
   .container {
     width: 60%;
   }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 850px) {
+  .container {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1380px) {
   h1 {
     text-align: start;
   }
@@ -113,14 +135,20 @@ p {
     justify-content: space-around;
     margin-top: 0;
     overflow: hidden;
+    width: 60%;
+  }
+
+  .desktop-img-container {
+    display: block;
+  }
+
+  .mobile-img-container {
+    display: none;
   }
 
   .content {
     flex: 1;
     align-self: center;
-  }
-  .mobile-img-container {
-    display: none;
   }
 
   #woman-online-desktop {
@@ -131,19 +159,18 @@ p {
 
   #pic-shadow-desktop {
     position: absolute;
-    top: -11rem;
-    left: -15rem;
-    z-index: 2;
+    right: 30rem;
+    top: -20rem;
+    z-index: 15;
   }
 
   #picture-box {
-    position: absolute;
-    left: 17%;
+    position: fixed;
     top: 50%;
     transform: translateY(-50%);
-    z-index: 35;
-    display: block;
+    left: 17%;
     height: 110px;
     width: auto;
+    z-index: 35;
   }
 }
