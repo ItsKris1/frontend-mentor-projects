@@ -30,7 +30,8 @@ Users should be able to:
 
 ### Screenshot
 ![3-column-layout vercel app_](https://user-images.githubusercontent.com/69897943/120891476-8438f100-c611-11eb-9378-5b84fb0f0955.png)
-![127 0 0 1_5500_3-column-preview-card-component-main_index html](https://user-images.githubusercontent.com/69897943/120891539-d1b55e00-c611-11eb-8c5f-195085ec83ef.png)
+![gd](https://user-images.githubusercontent.com/69897943/120891565-f3164a00-c611-11eb-98bc-194cf878ff6e.PNG)
+
 
 
 
