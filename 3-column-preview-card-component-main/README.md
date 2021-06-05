@@ -28,8 +28,9 @@ Users should be able to:
 - Mobile-first workflow
 - JavaScript
 
-### Solution
-https://3-column-layout.vercel.app/
+### Screenshot
+![3-column-layout vercel app_](https://user-images.githubusercontent.com/69897943/120891476-8438f100-c611-11eb-9378-5b84fb0f0955.png)
+
 
 
 
